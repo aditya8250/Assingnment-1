@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .column-header {
+            font-weight: bold;
+        }
+        .column-content {
+            font-style: italic;
+        }
+        .row-content {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Home Page</h1>
+    <img src="87ae8360cfe56fda3b49e609eb3b7c25.jpg" alt="Image 1" class="img-fluid" style="max-width: 10%; height: 20%;">
+    <!-- Add more content here -->
+    <div class="row row-content">
+        <div class="col-md-4 column-header">Name</div>
+        <div class="col-md-4 column-header">Age</div>
+        <div class="col-md-4 column-header">Gender</div>
+    </div>
+    <div class="row row-content">
+        <div class="col-md-4 column-content">Aditya</div>
+        <div class="col-md-4 column-content">17</div>
+        <div class="col-md-4 column-content">Male</div>
+    </div>
+
+    <!-- Additional Bootstrap Features -->
+    <div class="row">
+        <div class="col-md-6">
+            <button class="btn btn-primary btn-block">Click me</button>
+        </div>
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td><button class="btn btn-info btn-sm">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jane</td>
+                        <td><button class="btn btn-info btn-sm">Edit</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <div class="alert alert-warning" role="alert">
+                This is a warning alert—check it out!
+            </div>
+        </div>
+    </div>
+    <!-- End of Additional Bootstrap Features -->
+
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
